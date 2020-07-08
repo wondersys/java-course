@@ -23,5 +23,13 @@ public class ReferenceTypes {
         //These two statements do exactly the same thing!
         System.out.println(cat);
         System.out.println(cat.toString());
+
+        //Null reference
+        String nullString = null;
+        //Invocation of methods, like "nullString.isEmpty()" will throw an exception at runtime
+        System.out.printf("Is null: %s", nullString == null);
+        // nullString.isEmpty();
+
     }
+
 }
